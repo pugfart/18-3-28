@@ -12,8 +12,8 @@ namespace ConsoleApplication3
         {
             People grace = new People("grace", 100);
             People andrew = new People("andrew", 100);
-
-            grace.setting(20, 5);
+            
+            grace.setting(25, 5);
             andrew.setting(10, 6);
 
             Random a = new Random();
