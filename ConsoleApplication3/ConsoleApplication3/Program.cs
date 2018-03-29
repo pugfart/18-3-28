@@ -12,9 +12,14 @@ namespace ConsoleApplication3
         {
             People grace = new People("grace", 100);
             People andrew = new People("andrew", 100);
-            
-            grace.setting(25, 5);
-            andrew.setting(10, 6);
+
+            sword swordone = new sword();
+            sword swordtwo = new sword();
+            grace.setting(25, 5+swordone.damage);
+            andrew.setting(10, 6+swordtwo.damage);
+
+            Console.WriteLine(grace.name + "的攻擊力是" + grace.hit + "\n" + andrew.name + "的攻擊力是" + andrew.hit);
+            Console.ReadLine();
 
             Random a = new Random();
             int hurt,dead=1,hp;

@@ -9,9 +9,9 @@ namespace ConsoleApplication3
     class sword
     {
         public int damage;
+        private Random b = new Random();
         public sword()
-        {
-            Random b = new Random();
+        {            
             damage =b.Next(1,4);
         }       
     }
