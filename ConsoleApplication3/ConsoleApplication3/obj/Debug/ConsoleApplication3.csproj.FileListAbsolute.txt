@@ -7,6 +7,15 @@ c:\users\andrew.hua\documents\visual studio 2015\Projects\ConsoleApplication3\Co
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+<<<<<<< HEAD
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
 E:\18.3.28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+=======
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\grace.huang\Desktop\aa\bb\18-3-28\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+>>>>>>> 792ba9240500bff0dbaa28f524d213c772141e75
