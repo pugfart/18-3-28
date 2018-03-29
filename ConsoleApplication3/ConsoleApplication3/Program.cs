@@ -18,13 +18,13 @@ namespace ConsoleApplication3
 
             Random a = new Random();
             int hurt,dead=1,hp;
-            bool pouch;
+            bool punch;
 
             while (grace.hp >= 1 && andrew.hp >= 1)
             {
                 hurt=a.Next(1,grace.hit);
-                pouch = andrew.avoid < a.Next(100);
-                if (pouch)
+                punch = andrew.avoid < a.Next(100);
+                if (punch)
                 {
                     hp = grace.attack(andrew, hurt);
                     Console.WriteLine(andrew.name + "被攻擊了, 血量少了" + hurt + "滴, hp = " + hp);
@@ -40,8 +40,8 @@ namespace ConsoleApplication3
                 }
 
                 hurt = a.Next(1,andrew.hit);
-                pouch = grace.avoid < a.Next(100);
-                if (pouch)
+                punch = grace.avoid < a.Next(100);
+                if (punch)
                 {
                     hp = andrew.attack(grace, hurt);
                     Console.WriteLine(grace.name + "被攻擊了, 血量少了" + hurt + "滴, hp = " + hp);
