@@ -12,17 +12,17 @@ namespace ConsoleApplication3
         {
             People grace = new People("grace", 100);
             People andrew = new People("andrew", 100);
-
-            sword swordone = new sword();
-            sword swordtwo = new sword();
+            Random a = new Random();
+            sword swordone = new sword(a.Next());
+            sword swordtwo = new sword(a.Next());
             grace.setting(15+swordone.aviod, 5+swordone.damage);
             andrew.setting(10+swordtwo.aviod, 6+swordtwo.damage);
-
+            
             Console.WriteLine(grace.name + "的攻擊力是" + grace.hit + " 迴避率是"+grace.avoid+"\n"
                 + andrew.name + "的攻擊力是" + andrew.hit + " 迴避率是" + andrew.avoid);
             Console.ReadLine();
 
-            Random a = new Random();
+            
             int hurt,dead=1,hp;
             bool punch;
 

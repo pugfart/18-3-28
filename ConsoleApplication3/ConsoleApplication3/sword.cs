@@ -10,9 +10,12 @@ namespace ConsoleApplication3
     {
         public int damage;
         public int aviod;
-        private Random b = new Random();
-        public sword()
-        {            
+        private Random b;
+        private DateTime t=new DateTime();
+        
+        public sword(int s)
+        {
+            b = new Random(s);
             damage =b.Next(1,4);
             aviod = b.Next(20);
         }       
