@@ -45,6 +45,7 @@ namespace ConsoleApplication3
                     break;
                 }
 
+
                 hurt = a.Next(1,andrew.hit);
                 punch = grace.avoid < a.Next(100);
                 if (punch)
